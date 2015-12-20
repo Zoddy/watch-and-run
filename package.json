@@ -1,23 +1,20 @@
 {
   "name": "watch-and-run",
   "version": "1.0.0",
-  "description": "",
+  "description": "watch files and run something after they changed",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engine": ">=4.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zoddy/watch-and-run.git"
   },
-  "keywords": [
-    "watch",
-    "watcher"
-  ],
+  "keywords": ["watch", "watcher"],
   "author": "André Kussmann",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Zoddy/watch-and-run/issues"
-  },
-  "homepage": "https://github.com/Zoddy/watch-and-run#readme"
+  "bugs": {"url": "https://github.com/Zoddy/watch-and-run/issues"},
+  "homepage": "https://github.com/Zoddy/watch-and-run#readme",
+  "dependencies": {"glob": "6.0.1", "minimist": "1.2.0"}
 }
