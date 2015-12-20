@@ -11,10 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/Zoddy/watch-and-run.git"
   },
-  "keywords": ["watch", "watcher"],
+  "keywords": [
+    "watch",
+    "watcher"
+  ],
   "author": "André Kussmann",
   "license": "MIT",
-  "bugs": {"url": "https://github.com/Zoddy/watch-and-run/issues"},
+  "bugs": {
+    "url": "https://github.com/Zoddy/watch-and-run/issues"
+  },
   "homepage": "https://github.com/Zoddy/watch-and-run#readme",
-  "dependencies": {"glob": "6.0.1", "minimist": "1.2.0"}
+  "dependencies": {"minimist": "1.2.0"}
 }
